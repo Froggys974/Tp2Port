@@ -5,6 +5,19 @@ body, html {
     scroll-snap-type: y mandatory; /* Permet le défilement fluide */
 }
 
+
+.intro {
+    display: flex;
+    height: 100vh;
+}
+
+.textTitre {
+    background-color: white;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 section {
     position: relative;
     height: 100vh;
